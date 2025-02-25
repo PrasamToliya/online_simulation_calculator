@@ -24,7 +24,7 @@ def home_page():
         html.P("This tool allows you to process experimental data by identifying and removing spikes, as well as applying smoothing techniques to enhance data accuracy.", 
                style={'textAlign': 'center', 'maxWidth': '600px', 'margin': '0 auto', 'fontFamily': 'Arial, sans-serif'}),
         html.Img(
-            src='C:/Users/akpak/OneDrive/Desktop/prasam/assets/despike_image.webp',  # Change the file name accordingly
+            src='./assets/despike_image.webp',  # Change the file name accordingly
             style={'display': 'block', 'margin': '20px auto', 'width': '50%', 'maxWidth': '400px'}
         ),
         html.Div(style={'textAlign': 'center', 'marginTop': '20px', 'fontFamily': 'Arial, sans-serif'}, children=[

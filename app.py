@@ -268,6 +268,8 @@ def download_processed_file(n_clicks, data, original_columns):
         base64=True
     )
 
+server = app.server
+
 # Run the Dash app
 if __name__ == '__main__':
     app.run_server(debug=True)

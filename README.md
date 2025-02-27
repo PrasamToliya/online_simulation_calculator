@@ -1,4 +1,5 @@
 **Online Simulation Calculator** - Despiking Module
+
 Overview
 This repository hosts a Dash web application designed to provide a Despiking Module for processing and smoothing data related to Temperature and Coefficient of Thermal Expansion (CTE) at different heating rates. The application allows users to upload an Excel file containing raw data, process the data to remove spikes, visualize the smoothed data, and download the processed file in Excel format.
 
